@@ -11,6 +11,7 @@
   },
   "scripts": {
     "dev:server": "npx tsx watch src/http/server.ts",
+    "db:test": "npx drizzle-kit push",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
